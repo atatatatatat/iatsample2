@@ -20,9 +20,9 @@ var posWords = API.shuffle([
             'わざわい', '弱い', 'ひどい', '怒り']);
 	return iatExtension({
 		category1 : {
-			name : '老人', //Will appear in the data.
+			name : '高齢者', //Will appear in the data.
 			title : {
-				media : {word : '老人'}, //Name of the category presented in the task.
+				media : {word : '高齢者'}, //Name of the category presented in the task.
 				css : {color:'#31940F','font-size':'1.8em'}, //Style of the category title.
 				height : 4 //Used to position the "Or" in the combined block.
 			}, 
