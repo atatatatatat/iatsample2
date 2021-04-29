@@ -2,10 +2,10 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/atatatatatat/iatsample2/quiat9.js
     var API = new APIConstructor();
 var posWords = API.shuffle([
             '陽気な', '積極的な', '賢い', '屈強な', 
-            '人望がある', '幸せな', '自立的な']);
+            '人望がある', '幸せな', '自立的な','美しい']);
   var negWords = API.shuffle([
             '憂うつな', '消極的な', '鈍い', '病弱な', 
-            '短気な', 'さみしい', '依存的な']);
+            '短気な', 'さみしい', '依存的な', '醜い']);
 	return iatExtension({
 		category1 : {
 			name : '高齢者', //Will appear in the data.
